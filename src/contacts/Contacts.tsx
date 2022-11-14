@@ -7,13 +7,12 @@ export const Contacts = () => {
     return (
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h3>Contacts</h3>
-                <form onSubmit={()=>{}}>
-                    <label className={style.inputForm}>
+                <h2>Contacts</h2>
+                <form className={style.inputForm} onSubmit={()=>{}}>
                         <input type="text" value={''} onChange={()=>{}} />
                         <input type="text" value={''} onChange={()=>{}} />
                         <textarea></textarea>
-                    </label>
+
                 </form>
                 <button>Send</button>
             </div>

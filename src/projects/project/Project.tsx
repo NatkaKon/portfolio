@@ -9,10 +9,10 @@ type ProjectPropsType = {
 export const Project = (props: ProjectPropsType) => {
     return (
         <div className={style.project}>
-            <div className={style.picture}>
-                <button>Watch</button>
+            <div className={style.imgContainer}>
+                <a className={style.button}>Watch</a>
             </div>
-            <h3>{props.title}</h3>
+            <h4>{props.title}</h4>
             <span className={style.description}>{props.description}</span>
         </div>
     );
