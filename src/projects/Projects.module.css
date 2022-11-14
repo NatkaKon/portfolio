@@ -5,6 +5,7 @@
 .projectsContainer{
     flex-direction: column;
     justify-content: flex-start;
+    background-color: purple;
 }
 .projects{
     border: 1px solid;
