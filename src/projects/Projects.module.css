@@ -1,11 +1,11 @@
 .projectsBlock {
     min-height: 100vh;
-    background-color: rgba(90, 156, 156, 0.87);
+    background-color: #141519;
 }
 .projectsContainer{
     flex-direction: column;
     justify-content: flex-start;
-    background-color: purple;
+    /*background-color: purple;*/
 }
 .projects{
     border: 1px solid;
@@ -14,4 +14,17 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+.title{
+    margin-bottom: 30px;
+    position: relative;
+}
+.title::after{
+    content: '';
+    position: absolute;
+    background:#f43534;
+    width: 55px;
+    left:25%;
+    height: 1px;
+    bottom: -10px;
 }
