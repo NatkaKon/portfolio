@@ -12,9 +12,9 @@ export const Contacts = () => {
                         <input type="text" value={''} onChange={()=>{}} />
                         <input type="text" value={''} onChange={()=>{}} />
                         <textarea></textarea>
-
+                    <button type='submit' className={style.btnSubmit}>Send</button>
                 </form>
-                <button>Send</button>
+
             </div>
         </div>
     );

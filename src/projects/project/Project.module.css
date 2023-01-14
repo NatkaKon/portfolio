@@ -13,6 +13,7 @@
 
 .imgContainer {
     width: 100%;
+    /*убрать позже? сделать высоту по контенту*/
     height: 200px;
 
     background-color: #93b6c0;
