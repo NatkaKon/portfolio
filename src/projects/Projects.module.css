@@ -2,29 +2,15 @@
     min-height: 100vh;
     background-color: #141519;
 }
-.projectsContainer{
+
+.projectsContainer {
     flex-direction: column;
     justify-content: flex-start;
-    /*background-color: purple;*/
 }
-.projects{
-    border: 1px solid;
-    width: 100%;
 
+.projects {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
-.title{
-    margin-bottom: 30px;
-    position: relative;
-}
-.title::after{
-    content: '';
-    position: absolute;
-    background:#f43534;
-    width: 55px;
-    left:25%;
-    height: 1px;
-    bottom: -10px;
 }
