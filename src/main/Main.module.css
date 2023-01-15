@@ -1,10 +1,29 @@
 .mainBlock {
     height: 100vh;
-    background-color: #d58d8d;
+    background-color: #212529;
+    color: #ffffff;
 }
-
+.subtitle{
+    font-size: 14px;
+    color: #c4cfde;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
 .about {
-    width: 300px;
+    width: 60%;
+    font-size: 25px;
+    line-height: 60px;
+}
+.name{
+   color: #FF014F;
+}
+.profession{
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 500;
 }
 
 .photo {
