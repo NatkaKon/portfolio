@@ -10,8 +10,11 @@ export const Skill = (props: SkillsPropsType) => {
     return (
         <div className={style.skill}>
             <div className={style.icon}></div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>{props.description}</span>
+            <div className={style.content}>
+                <h3 className={style.title}>{props.title}</h3>
+                <p className={style.description}>{props.description}</p>
+            </div>
+
         </div>
     );
 };
