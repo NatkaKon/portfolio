@@ -9,13 +9,17 @@ export const Contacts = () => {
         <div className={style.contacts}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title titleBlocks={'Contacts'}/>
+
                 <form className={style.inputForm} onSubmit={() => {
                 }}>
-                    <input type="text" value={''} onChange={() => {
+                    <div className={style.visitorsDate}>Your name</div>
+                    <input className={style.contactForm} type="text" value={''} onChange={() => {
                     }}/>
-                    <input type="text" value={''} onChange={() => {
+                    <div className={style.visitorsDate}>Email</div>
+                    <input className={style.contactForm} type="text" value={''} onChange={() => {
                     }}/>
-                    <textarea></textarea>
+                    <div className={style.visitorsDate}>Your message</div>
+                    <textarea className={style.contactForm}></textarea>
                     <button type="submit" className={style.btnSubmit}>Send</button>
                 </form>
             </div>
