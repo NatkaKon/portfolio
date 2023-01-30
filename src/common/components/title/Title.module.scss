@@ -1,0 +1,15 @@
+.title {
+  margin-bottom: 30px;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    background: #f43534;
+    width: 55px;
+    left: 50%;
+    height: 1px;
+    bottom: -10px;
+    transform: translate(-50%, 50%);
+  }
+}

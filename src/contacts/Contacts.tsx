@@ -1,6 +1,6 @@
 import React from 'react';
-import style from './Contacts.module.css'
-import styleContainer from '../common/styles/Container.module.css';
+import style from './Contacts.module.scss'
+import styleContainer from '../common/styles/Container.module.scss';
 import {Title} from '../common/components/title/Title';
 
 
@@ -20,7 +20,7 @@ export const Contacts = () => {
                     }}/>
                     <div className={style.visitorsDate}>Your message</div>
                     <textarea className={style.contactForm}></textarea>
-                    <button type="submit" className={style.btnSubmit}>Send</button>
+                    <button type="submit" className={style.btnSubmit}>Send message</button>
                 </form>
             </div>
         </div>
