@@ -1,3 +1,4 @@
+@import "../src/common/styles/sass/variables";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,20 +11,21 @@ h2 {
     text-transform: capitalize;
     line-height: 1.2;
     letter-spacing: 5px;
-    color: #c4cfde;
+    color: $textColorSecondary;
 }
+
 h3{
     font-size: 29px;
     line-height: 44px;
     margin-bottom: 9px;
-    color: #E4E6EA;
+    color: $textColorSecondary;
     font-weight: 700;
     word-break: break-word;
 }
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: #141519;
+    background-color: $bgPrimary;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

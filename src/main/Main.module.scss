@@ -1,7 +1,9 @@
+@import "../common/styles/sass/variables";
+
 .mainBlock {
   height: 100vh;
-  background-color: #141519;
-  color: #ffffff;
+  background-color:$bgPrimary;
+  color: $textColorPrimary;
 
 
   .about {
@@ -18,7 +20,7 @@
 
     .subtitle {
       font-size: 14px;
-      color: #c4cfde;
+      color: $textColorSecondary;
       letter-spacing: 3px;
       text-transform: uppercase;
       font-weight: 500;
@@ -34,7 +36,7 @@
       }
 
       .name {
-        color: #FF014F;
+        color: $textColorAccent;
       }
 
       .profession {

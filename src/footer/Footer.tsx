@@ -11,12 +11,12 @@ export const Footer = () => {
                 <div className={style.footerLinks}>
                     <a className={style.link} href="https://github.com/NatkaKon">
                         <img className={style.icon} src="" alt="Icon Github"/></a>
-                    <a className={style.link} href="https://github.com/NatkaKon">
-                        <img className={style.icon} src="" alt="Icon Github"/></a>
-                    <a className={style.link} href="https://github.com/NatkaKon">
-                        <img className={style.icon} src="" alt="Icon Github"/></a>
-                    <a className={style.link} href="https://github.com/NatkaKon">
-                        <img className={style.icon} src="" alt="Icon Github"/></a>
+                    <a className={style.link} href="https://www.linkedin.com/in/natalia-kondratieva/">
+                        <img className={style.icon} src="" alt="Icon Linkidin"/></a>
+                    <a className={style.link} href="https://www.codewars.com/users/NatkaKon">
+                        <img className={style.icon} src="" alt="Icon Codewars"/></a>
+                    <a className={style.link} href="https://t.me/Nkaftd">
+                        <img className={style.icon} src="" alt="Icon Telegram"/></a>
                 </div>
                 <p> &#169; 2022</p>
 

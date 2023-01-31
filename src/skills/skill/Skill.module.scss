@@ -1,6 +1,8 @@
+@import "../../common/styles/sass/variables";
+
 .skill {
   width: 330px;
-  background-color: #1e2125;
+  background-color: $bgColorSecondary;
 
   display: flex;
   flex-direction: column;
@@ -17,25 +19,26 @@
     width: 60px;
     height: 60px;
 
-    background-color: #FF014F;
+    background-color: $bgColorAccent;
     margin-bottom: 29px;
   }
 
 
   .content {
-
+    color: $textColorSkill;
     .title {
       font-weight: 700;
       font-size: 24px;
       line-height: 32px;
       margin-bottom: 20px;
+      color: $textColorSkill;
     }
 
     .description {
       font-size: 16px;
       line-height: 28px;
       font-weight: 500;
-      color: #c4cfde;
+      //color: #c4cfde;
       margin-bottom: 22px;
     }
   }
