@@ -32,8 +32,14 @@
         text-align: center;
 
         .icon{
-          width: 15px;
-          height: 15px;
+          font-size: 20px;
+          color:$textColorSecondary;
+          &:hover{
+            color:$textColorAccent;
+            transform: translateY(-7px);
+            transition: 0.3s;
+          }
+
         }
 
 

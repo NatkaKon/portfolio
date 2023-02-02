@@ -54,15 +54,19 @@
         border-radius: 6px;
         font-family: inherit;
         line-height: inherit;
-        box-shadow: 5px 5px 5px #1c1e22;
         transition: 0.4s;
         position: relative;
-        z-index: 2;
         font-size: 14px;
         font-weight: 500;
         border: 0 none;
         color: $textColorAccent;
         text-transform: uppercase;
+        &:hover{
+          color:$textColorSecondary;
+          border: 1px solid $textColorAccent ;
+          transform: translateY(-7px);
+          transition: 0.3s;
+        }
       }
     }
   }

@@ -10,7 +10,7 @@ export const Skills = () => {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title titleBlocks={'Skills'}/>
                 <div className={style.skills}>
-                    <Skill title={'Mobile APP'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur consequuntur cupiditate dolor eum inventore laboriosam libero quia ut! Eveniet ipsum minima unde? '}/>
+                    <Skill title={'HTML'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur consequuntur cupiditate dolor eum inventore laboriosam libero quia ut! Eveniet ipsum minima unde? '}/>
                     <Skill title={'CSS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad adipisci, alias deserunt ea error et facere fuga id e qui, vel. Dignissimos.'}/>
                     <Skill title={'React'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam omnis quo quod rem sint! Alias, dolore, itaque. Assumenda cupnem incidunt molestiae nostrum, vero voluptates.'}/>
                     <Skill title={'Redux'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores consequatur nte sit unde, ut voluptates! Autem, hic?'}/>

@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './Footer.module.scss'
 import styleContainer from '../common/styles/Container.module.scss';
+import {BsGithub, BsLinkedin, BsTelegram} from 'react-icons/bs';
+import {SiCodewars} from 'react-icons/si';
 
 
 export const Footer = () => {
@@ -9,16 +11,18 @@ export const Footer = () => {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h3>Natalia Kondratieva</h3>
                 <div className={style.footerLinks}>
-                    <a className={style.link} href="https://github.com/NatkaKon">
-                        <img className={style.icon} src="" alt="Icon Github"/></a>
+                    <a className={style.link} href="https://github.com/NatkaKon" >
+                        <BsGithub className={style.icon}/></a>
+
                     <a className={style.link} href="https://www.linkedin.com/in/natalia-kondratieva/">
-                        <img className={style.icon} src="" alt="Icon Linkidin"/></a>
+                        <BsLinkedin className={style.icon}/></a>
+
                     <a className={style.link} href="https://www.codewars.com/users/NatkaKon">
-                        <img className={style.icon} src="" alt="Icon Codewars"/></a>
+                        <SiCodewars className={style.icon}/></a>
+
                     <a className={style.link} href="https://t.me/Nkaftd">
-                        <img className={style.icon} src="" alt="Icon Telegram"/></a>
+                        <BsTelegram className={style.icon}/></a>
                 </div>
-                <p> &#169; 2022</p>
 
             </div>
         </div>
