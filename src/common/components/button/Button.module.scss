@@ -1,0 +1,27 @@
+@import "../../styles/sass/variables";
+
+.btn {
+  width: 30%;
+  padding: 5px 10px;
+  color: $textColorBtnProject;
+  text-transform: uppercase;
+
+  position: relative;
+  z-index: 1;
+
+  border-radius: 5px;
+  border: 1px solid $textColorBtnProject;
+  opacity: 0.7;
+  background-color: #26272d;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+
+  &:hover{
+    text-decoration: none;
+    color:$textColorPrimary;
+    border: 1px solid $textColorAccent ;
+    transform: translateY(-7px);
+    transition: 0.3s;
+  }
+}
